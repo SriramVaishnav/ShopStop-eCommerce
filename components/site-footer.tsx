@@ -18,13 +18,11 @@ export function SiteFooter() {
             </div>
           ))}
         </nav>
-        <Link
-          href="https://www.fullstack.so"
-          className="mt-10 block text-center text-xs leading-5"
+        <p
+          className="mt-10 block text-center text-sm leading-5"
         >
-          &copy; {new Date().getFullYear()} {siteConfig.name} LLC. All rights
-          reserved.
-        </Link>
+          &copy; {new Date().getFullYear()} Developed by <a href="https://sriramvaishnav.com" target="_blank" className="text-purple-600 hover:underline">Sriram Vaishnav</a>
+        </p>
       </div>
     </footer>
   )
